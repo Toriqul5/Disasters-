@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@layer utilities {
+    .nav{
+       @apply text-gray-700 hover:text-orange-600 font-bold focus:border-b-2 focus:border-black;
+    }
+  }
+  
